@@ -4,7 +4,9 @@ All notable changes to this project will be documented in this file.
  
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
- 
+
+<!--
+Template for next version
 ## [Unreleased]
 
 ### Added
@@ -14,6 +16,69 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 ### Security
+-->
+
+## [Unreleased]
+
+### Added
+
+### Changed
+
+### Fixed
+
+* Fixed typo https://github.com/ohmyform/ohmyform/pull/185
+* node prune location (https://github.com/ohmyform/ohmyform/issues/184)
+
+### Security
+
+## [1.0.3] - 2022-03-27
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.3
+* https://github.com/ohmyform/ui/releases/tag/1.0.3
+
+### Added
+
+* minimal configuration example for caddy server (https://github.com/ohmyform/ohmyform/pull/167)
+
+## [1.0.2] - 2022-03-13
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.2
+* https://github.com/ohmyform/ui/releases/tag/1.0.2
+
+### Changed
+
+- docker restart policy (https://github.com/ohmyform/ohmyform/issues/164)
+
+## [1.0.1] - 2022-03-01
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.1
+* https://github.com/ohmyform/ui/releases/tag/1.0.1
+
+## [1.0.0] - 2022-02-28
+
+### Updates
+
+* https://github.com/ohmyform/api/releases/tag/1.0.0
+* https://github.com/ohmyform/ui/releases/tag/1.0.0
+
+### Changed
+
+- switched to supervisord based combined container
+- upgrade to node 16
+
+### Fixed
+
+- heroku deployments
+- fix problem with node-prune on production build
+- variable names in examples (https://github.com/ohmyform/ohmyform/issues/134)
+- error if /run/nginx already exists (https://github.com/ohmyform/ohmyform/pull/148)
+- fix combine images
 
 ## [0.9.9] - 2021-02-14
 
